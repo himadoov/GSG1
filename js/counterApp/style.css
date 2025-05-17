@@ -1,0 +1,54 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgb(65, 185, 129);
+    background-image: url(station.jpg);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+.container{
+	width:40% ;
+	margin: 0 auto;
+	padding: 10rem;
+	background-color: rgb(57, 201, 177);
+	background-image:linear-gradient(rgba(91, 91, 91, 0.7)0 100%) ,  url(1111111111.jpg)  ;
+	background-size: cover;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size:4rem;
+    margin: 0.75em 0;
+}
+
+.btn {
+    color: #FFFFFF;
+    padding: 0.75em 1.8em;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+	margin-left: 0.25em;
+
+}
+
+
+
+#increment-btn {
+    background-color:red;
+}
+
+#save-btn {
+    background-color: green;
+}
+
+#entries-log {
+    font-weight: bold;
+}
